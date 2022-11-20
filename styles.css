@@ -1,20 +1,40 @@
+@media (min-width: 700px) {
 .container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1.5fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". pic ."
+    ". contact ."
+    ". alternate ."
+    ". vet ."; 
+}
+}
+
+@media (max-width: 700px) {
+  .container {
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr; 
+    grid-template-columns: 0.1fr 1fr 0.1fr; 
+    grid-template-rows: 1.5fr 1fr 1fr 1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
-      ". . ."
       ". pic ."
-      ". info ."
-      ". . ."; 
+      ". contact ."
+      ". alternate ."
+      ". vet ."; 
   }
-  .pic {
-    justify-self: center; 
-    align-self: center; 
-    grid-area: pic; 
   }
-  .info { grid-area: info; }
+
+.pic { 
+  grid-area: pic;
+  justify-self: center; 
+  align-self: center; 
+}
+.contact { grid-area: contact; }
+.alternate { grid-area: alternate; }
+.vet { grid-area: vet; }
+
 
 .picstyle {
     max-width: 100%
