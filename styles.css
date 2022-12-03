@@ -55,7 +55,7 @@
 .pic_img_tag{
   border-radius: 50%;
   max-width: 100%;
-  border: 8px solid rgb(161, 6, 6);
+  border: 8px solid #b01c1c;
   box-sizing: border-box;
 }
 .contact { 
@@ -63,8 +63,14 @@
   text-align: center;
 }
 
-.alternate { grid-area: alternate; }
-.vet { grid-area: vet; }
+.alternate { 
+  grid-area: alternate;
+  text-align: center
+ }
+.vet { 
+  grid-area: vet;
+  text-align: center;
+ }
 
 
 .headername{
@@ -79,10 +85,10 @@
 .headerphone{
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   color: rgb(48, 44, 44);
 }
-.buttoncall{
+.btntext{
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
@@ -92,13 +98,13 @@
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
+  font-family: sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-.buttoncall:hover{ 
+.btntext:hover{ 
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -106,7 +112,36 @@
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;}
-.buttontext{}
-.altphone{}
-.buttonlocation{}
+.btncall {
+    background: #eb0909;
+    background-image: -webkit-linear-gradient(top, #eb0909, #b01c1c);
+    background-image: -moz-linear-gradient(top, #eb0909, #b01c1c);
+    background-image: -ms-linear-gradient(top, #eb0909, #b01c1c);
+    background-image: -o-linear-gradient(top, #eb0909, #b01c1c);
+    background-image: linear-gradient(to bottom, #eb0909, #b01c1c);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btncall:hover {
+    background: #d10c0c;
+    background-image: -webkit-linear-gradient(top, #d10c0c, #820303);
+    background-image: -moz-linear-gradient(top, #d10c0c, #820303);
+    background-image: -ms-linear-gradient(top, #d10c0c, #820303);
+    background-image: -o-linear-gradient(top, #d10c0c, #820303);
+    background-image: linear-gradient(to bottom, #d10c0c, #820303);
+    text-decoration: none;
+  }
+.altphone{
+  font-family: sans-serif;
+  font-weight: bold  ;
+  font-size: 1em;
+}
+
 
