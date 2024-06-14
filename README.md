@@ -1,1 +1,1 @@
-I have created personal web pages for my pets, which are accessed via a QR codes on their collars. This allows me to keep change and updated my contact info, without having to re-order new tags. 
+I have created personal web pages for my pets, which are accessed via a QR codes on their collars. Since I move around alot, this allows me to updated my contact info on their virtual 'tags' without having to re-order new physical tags. 
